@@ -117,6 +117,7 @@ function Monitoring() {
               <a
                 key={i}
                 href={article.url}
+                target='_blank'
                 className='p-4 border rounded-md border-zinc-400 dark:border-zinc-700 group flex flex-col justify-between'
               >
                 <div>

@@ -12,12 +12,12 @@ function Home() {
         </h3>
         <p className='mt-2 mb-6 px-1 indent-4 text-justify'>
           Je suis étudiant en alternance et développeur FullStack. J&apos;habite
-          en France, à côté de Lille. J&apos;ai commencé à programmer en 2019 et
-          depuis, cela est devenu ma passion. J&apos;adore coder, pouvoir créer
-          du contenu sur internet. Je suis développeur FullStack, même si je
-          penche plutôt du côté Backend. J&apos;aime aussi faire du design même
-          si ce n&apos;est pas mon point fort. En ligne, ou pas, j&apos;écoute
-          beaucoup de musique. J&apos;ai réalisé plusieurs petits projets pour
+          à Lille. J&apos;ai commencé à programmer en 2019 et depuis, cela est
+          devenu ma passion. J&apos;adore coder, pouvoir créer du contenu sur
+          internet. Je suis développeur FullStack, même si je penche plutôt du
+          côté Backend. J&apos;aime aussi faire du design même si ce n&apos;est
+          pas mon point fort. En ligne, ou pas, j&apos;écoute beaucoup de
+          musique. J&apos;ai réalisé plusieurs petits projets pour
           m&apos;exercer dans plusieurs technologies. Je ne suis jamais à court
           d&apos;idées.
         </p>

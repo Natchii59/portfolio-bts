@@ -7,12 +7,12 @@ export interface LinkType {
 
 export const links: LinkType[] = [
   {
-    name: 'Professionnel',
-    slug: 'professional'
+    name: 'Expériences',
+    slug: 'experiences'
   },
   {
     name: 'Compétences',
-    slug: 'skills'
+    slug: 'competences'
   },
   {
     name: 'Veille',
