@@ -15,7 +15,7 @@ function Monitoring() {
   useEffect(() => {
     const controller = new AbortController()
 
-    const init = async () => {
+    const init = async (otherKey?: boolean): Promise<void> => {
       setLoading(true)
 
       const url = new URL('https://newsapi.org/v2/everything')
@@ -26,16 +26,23 @@ function Monitoring() {
       url.searchParams.append('page', '1')
 
       try {
+        const key = otherKey
+          ? import.meta.env.VITE_APP_MONITORING_API_KEY2
+          : import.meta.env.VITE_APP_MONITORING_API_KEY
+
         const result = await fetch(url, {
           signal: controller.signal,
           method: 'GET',
           headers: {
-            'X-Api-Key': import.meta.env.VITE_APP_MONITORING_API_KEY
-          },
-          mode: 'cors'
+            'X-Api-Key': key
+          }
         })
 
         const data = await result.json()
+
+        if (data.status === 'error' && data.code === 'rateLimited') {
+          return init(true)
+        }
 
         if (data.error) return setError(data.error)
 
