@@ -8,6 +8,9 @@ import AlternanceC2B from './pages/experiences/AlternanceC2B'
 import StagePicwicToys from './pages/experiences/StagePicwicToys'
 import BTSSIO from './pages/experiences/BTSSIO'
 import Competences from './pages/Competences'
+import Projects from './pages/Projects'
+import MarieTeam from './pages/projects/Marieteam'
+import Restorat from './pages/projects/Restorat'
 
 function App() {
   return (
@@ -22,6 +25,11 @@ function App() {
           <Route path='bts-sio' element={<BTSSIO />} />
         </Route>
         <Route path='competences' element={<Competences />} />
+        <Route path='projects'>
+          <Route index element={<Projects />} />
+          <Route path='marieteam' element={<MarieTeam />} />
+          <Route path='restorat' element={<Restorat />} />
+        </Route>
       </Route>
 
       <Route path='*' element={<Navigate to='/' replace />} />

@@ -37,11 +37,37 @@ function StagePicwicToys() {
         comprendre et utiliser.
       </p>
 
-      <p className='indent-4 text-justify'>
+      <p className='indent-4 text-justify mb-6'>
         Pour moi ce stage a été une très bonne première expérience dans le monde
         de l'entreprise, dans le domaine Informatique. J'ai pû découvrir pleins
         d'aspects de la programmation en équipe, et encadré.
       </p>
+
+      <a
+        href='https://archive.is/kkpLJ'
+        target='_blank'
+        className='text-lg font-semibold hover:underline'
+      >
+        Exemple de l'ancienne page d'accueil
+      </a>
+      <img
+        src='/picwic-home.png'
+        alt='Home'
+        className='mb-6 border border-black rounded-lg shadow-md'
+      />
+
+      <a
+        href='https://archive.is/dNq7a'
+        target='_blank'
+        className='text-lg font-semibold hover:underline'
+      >
+        Exemple de l'ancienne page produit
+      </a>
+      <img
+        src='/picwic-product.png'
+        alt='Product'
+        className='mb-6 border border-black rounded-lg shadow-md'
+      />
     </>
   )
 }

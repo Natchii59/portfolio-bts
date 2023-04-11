@@ -15,6 +15,10 @@ export const links: LinkType[] = [
     slug: 'competences'
   },
   {
+    name: 'Projets',
+    slug: 'projects'
+  },
+  {
     name: 'Veille',
     slug: 'monitoring'
   }

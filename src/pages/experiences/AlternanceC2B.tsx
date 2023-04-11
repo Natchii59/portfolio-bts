@@ -24,13 +24,33 @@ function AlternanceC2B() {
         BackOffice.
       </p>
 
-      <p className='indent-4 text-justify'>
+      <p className='indent-4 text-justify mb-4'>
         Une fois ma formation fini, j'ai pu commencer à traiter des tickets
         (Jira) pour implémenter des nouvelles fonctionnalités, ou corriger des
         bugs sur le BackOffice, et le Widget que l'entreprise vend à ses
         clients. Je travaille en Ruby avec RubyOnRails (côté backend),
         Javascript avec Vuejs (côté frontend).
       </p>
+
+      <a
+        href='https://widget.clic2buy.com/6222-6eca33f?locale=fr-FR'
+        target='_blank'
+        className='text-lg font-semibold hover:underline'
+      >
+        Exemple de Widget
+      </a>
+      <img
+        src='/c2b-widget.png'
+        alt='Widget'
+        className='mb-6 border border-black rounded-lg shadow-md'
+      />
+
+      <p className='text-lg font-semibold'>Exemple de ticket Jira</p>
+      <img
+        src='/c2b-jira.png'
+        alt='Jira'
+        className='mb-6 border border-black rounded-lg shadow-md'
+      />
     </>
   )
 }
