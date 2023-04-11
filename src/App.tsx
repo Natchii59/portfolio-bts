@@ -14,9 +14,10 @@ import Restorat from './pages/projects/Restorat'
 
 function App() {
   return (
-    <Routes>
-      <Route path='/' element={<Layout />}>
-        <Route index element={<Home />} />
+    <Layout>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='competences' element={<Competences />} />
         <Route path='monitoring' element={<Monitoring />} />
         <Route path='experiences'>
           <Route index element={<Experiences />} />
@@ -24,16 +25,15 @@ function App() {
           <Route path='stage-picwictoys' element={<StagePicwicToys />} />
           <Route path='bts-sio' element={<BTSSIO />} />
         </Route>
-        <Route path='competences' element={<Competences />} />
         <Route path='projects'>
           <Route index element={<Projects />} />
           <Route path='marieteam' element={<MarieTeam />} />
           <Route path='restorat' element={<Restorat />} />
         </Route>
-      </Route>
 
-      <Route path='*' element={<Navigate to='/' replace />} />
-    </Routes>
+        <Route path='*' element={<Navigate to='/' replace />} />
+      </Routes>
+    </Layout>
   )
 }
 

@@ -1,7 +1,6 @@
-import { Outlet } from 'react-router-dom'
 import Appbar from './Appbar'
 
-function Layout() {
+function Layout({ children }: React.PropsWithChildren) {
   return (
     <>
       <Appbar />
@@ -9,7 +8,7 @@ function Layout() {
       <div className='pt-20'>
         <div className='p-4'>
           <div className='w-full max-w-6xl mx-auto relative mb-10'>
-            <Outlet />
+            {children}
           </div>
         </div>
       </div>
