@@ -1,4 +1,4 @@
-function AlternanceC2B() {
+export function AlternanceC2B() {
   return (
     <>
       <h1 className='text-4xl font-bold'>Alternance à Click2Buy</h1>
@@ -54,5 +54,3 @@ function AlternanceC2B() {
     </>
   )
 }
-
-export default AlternanceC2B

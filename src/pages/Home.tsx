@@ -1,6 +1,6 @@
 import { homeSocials } from '../lib/datas'
 
-function Home() {
+export function Home() {
   return (
     <div className='p-4 shadow-md rounded-md bg-zinc-100 flex items-start gap-4'>
       <div>
@@ -45,5 +45,3 @@ function Home() {
     </div>
   )
 }
-
-export default Home

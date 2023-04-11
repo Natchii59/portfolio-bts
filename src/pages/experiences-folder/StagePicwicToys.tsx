@@ -1,4 +1,4 @@
-function StagePicwicToys() {
+export function StagePicwicToys() {
   return (
     <>
       <h1 className='text-4xl font-bold'>Stage à PicwicToys</h1>
@@ -71,5 +71,3 @@ function StagePicwicToys() {
     </>
   )
 }
-
-export default StagePicwicToys

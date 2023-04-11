@@ -23,7 +23,7 @@ const datas = [
   }
 ]
 
-function Experiences() {
+export function Experiences() {
   return (
     <>
       <h1 className='text-4xl font-bold mb-6'>Mon parcours professionnel</h1>
@@ -71,5 +71,3 @@ function Experiences() {
     </>
   )
 }
-
-export default Experiences

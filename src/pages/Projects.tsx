@@ -15,7 +15,7 @@ const datas = [
   }
 ]
 
-function Projects() {
+export function Projects() {
   return (
     <>
       <h1 className='text-4xl font-bold'>Mes projets</h1>
@@ -45,5 +45,3 @@ function Projects() {
     </>
   )
 }
-
-export default Projects

@@ -1,16 +1,18 @@
 import { Navigate, Route, Routes } from 'react-router-dom'
 
 import Layout from './components/Layout'
-import Home from './pages/Home'
-import Monitoring from './pages/Monitoring'
-import Experiences from './pages/Experiences'
-import AlternanceC2B from './pages/experiences/AlternanceC2B'
-import StagePicwicToys from './pages/experiences/StagePicwicToys'
-import BTSSIO from './pages/experiences/BTSSIO'
-import Competences from './pages/Competences'
-import Projects from './pages/Projects'
-import MarieTeam from './pages/projects/Marieteam'
-import Restorat from './pages/projects/Restorat'
+import {
+  AlternanceC2B,
+  BTSSIO,
+  Experiences,
+  StagePicwicToys,
+  Competences,
+  Home,
+  Monitoring,
+  Projects,
+  MarieTeam,
+  Restorat
+} from './pages'
 
 function App() {
   return (

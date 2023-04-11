@@ -1,4 +1,4 @@
-function Monitoring() {
+export function Monitoring() {
   return (
     <>
       <h1 className='text-4xl font-bold mb-6'>Ma veille informatique</h1>
@@ -38,5 +38,3 @@ function Monitoring() {
     </>
   )
 }
-
-export default Monitoring

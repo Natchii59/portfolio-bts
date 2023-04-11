@@ -1,4 +1,4 @@
-function Restorat() {
+export function Restorat() {
   return (
     <>
       <h1 className='text-4xl font-bold mb-6'>
@@ -99,5 +99,3 @@ function Restorat() {
     </>
   )
 }
-
-export default Restorat

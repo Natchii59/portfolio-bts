@@ -1,4 +1,4 @@
-function MarieTeam() {
+export function MarieTeam() {
   return (
     <>
       <h1 className='text-4xl font-bold mb-6'>
@@ -91,5 +91,3 @@ function MarieTeam() {
     </>
   )
 }
-
-export default MarieTeam

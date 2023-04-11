@@ -1,4 +1,4 @@
-function BTSSIO() {
+export function BTSSIO() {
   return (
     <>
       <h1 className='text-4xl font-bold'>BTS SIO - SLAM</h1>
@@ -53,5 +53,3 @@ function BTSSIO() {
     </>
   )
 }
-
-export default BTSSIO

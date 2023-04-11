@@ -1,4 +1,4 @@
-function Competences() {
+export function Competences() {
   return (
     <table className='table-fixed border border-zinc-400'>
       <thead>
@@ -187,5 +187,3 @@ function Competences() {
     </table>
   )
 }
-
-export default Competences
